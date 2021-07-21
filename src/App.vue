@@ -31,24 +31,35 @@ export default {
 </script>
 
 <style>
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  width: 100vw;
   display: flex;
-  min-height: 100vh;
+  flex-direction: column;
+  background-color: black;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 #nav {
-  width:33%;
+  max-width:100%;
   text-align: start;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: flex-center;
+  align-items: flex-end;
   order: 1;
+  margin: 0px;
 }
 
 #nav a {
