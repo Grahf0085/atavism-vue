@@ -15,13 +15,9 @@ export default {
 
 <style scoped>
   header {
-    display: flex;
     margin: 0;
-    width: 100%;
     height: 2.5rem;
-  }
-  h1 {
-    margin-top: 0;
-    margin-left: 1rem;
+    padding-left: 5rem;
+    margin-top: 2rem;
   }
 </style>
