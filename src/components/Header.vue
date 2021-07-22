@@ -18,6 +18,10 @@ export default {
     margin: 0;
     height: 2.5rem;
     padding-left: 5rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
   }
 </style>
