@@ -2,8 +2,10 @@
   <div class="home">
     <h2>Welcome!</h2>
     <div class ="meat">
-      <p>Atavism attempts to be a new path to the ancient Final Fantasy XI world before the release of TOAU and all subsequent expansions.
-        We embrace a few deviations that could, perhaps, "improve" things a bit.
+      <p>Atavism attempts a new path to the ancient Final Fantasy XI world before the release of TOAU and all subsequent expansions.
+        We embrace a few deviations that could, perhaps, "improve" things a bit. We are a progression server that starts with only
+        vanilla content and a level 50 cap. Upon the Shadow Lords defeat ROZ zones, missions, jobs, etc
+        will be unlocked for the entire server. Summoner will be available from the start. COP missions, zones, etc will be unlocked for the entire server after the one group gains accesses Sky
       </p>
       <p>
         This project is a fork of <a href = "https://www.limitbreakffxi.com/">Limit Break</a> (TOAU) which is a fork of
@@ -12,10 +14,24 @@
         FAQ).
       </p>
       <h2>What You Will Find Here</h2>
-      <p>To start, we will be a level 50 cap server with only vanilla jobs and zones. Upon the Shadow Lords defeat ROZ zones, missions, jobs, etc
-        will be unlocked for the entire server. Summoner will be available from the start but won't have many summons available until ROZ
-        is released. Upon the defeat of Eald'narche COP missions, zones, etc will be unlocked for the entire server.
-        </p>
+      <ul>
+        <li>Max Level of 50 and very little ROZ/COP until Shadow Lord is Vanquished</li>
+        <li>Land Kings are Force Pop</li>
+        <li>Dia/Bio Overwrite Works Both Ways</li>
+        <li>No Dual Boxing At This Time</li>
+        <li>No Limit on Number of Auction House Listings. Items expire in 30 days.</li>
+        <li>Level Sync: 10</li>
+        <li>Mob Trains Walk back to Spawn Point instead of Despawning</li>
+        <li>Craft Skillup Rate: 1.5</li>
+        <li>No Global Yell</li>
+        <li>Several Jobs H2H skill drastically increased in-order-to make Monk a more viable subjob</li>
+        <li>PLD and DRK MP increased to equal RDMs. This is the way PLD and DRK were before the US release. Reintroduced here for
+          many reasons including helping with a lack of healers and creating new opportunities for job/subjob combinations
+        </li>
+        <li>It's a known bug that topaz has way too many mobs in some zones. Also, SE has moved mobs around and
+          introduced new mobs over the years. I attempted to rearrange a few zones and then got tired of it.
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -55,5 +71,11 @@ export default {
 
   h2 {
     font-size: 1.5rem;
+  }
+
+  li {
+    margin: .5rem;
+    list-style-type: square;
+    font-size: 18px;
   }
 </style>

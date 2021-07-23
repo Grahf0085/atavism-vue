@@ -20,6 +20,7 @@
         <a href = "https://www.wingsxi.com/wings/">Wings</a>
         <a href = "https://www.limitbreakffxi.com/">Limit Break</a>
         <a href = "https://gitlab.com/Grahf0085/atavism">Gitlab</a>
+        <a href = "https://discord.gg/r78h8Bt4">Discord</a>
       </div>
     </div>
   <router-view/>
@@ -41,6 +42,9 @@ export default {
 
 body {
   margin: 0;
+  height: 100vh;
+  background: -webkit-linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+  background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
 }
 
 #app {
@@ -49,13 +53,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* color: #2c3e50; */
   color: #214261;
-  height: 100vh;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: .2fr 4fr;
   gap: 4rem;
-  background: -webkit-linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-  background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
 }
 
 #nav, #internal, #tools, #links {
@@ -64,7 +65,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px;
-  height: 49%;
+  height: 23rem;
   border-left: 1px solid white;
 }
 
