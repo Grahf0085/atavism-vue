@@ -1,11 +1,11 @@
 <template>
-  <div class="home">
+  <div class = "home">
     <h2>Welcome!</h2>
-    <div class ="meat">
+    <div class = "meat">
       <p>Atavism attempts a new path to the ancient Final Fantasy XI world before the release of TOAU and all subsequent expansions.
         We embrace a few deviations that could, perhaps, "improve" things a bit. We are a progression server that starts with only
         vanilla content and a level 50 cap. Upon the Shadow Lords defeat ROZ zones, missions, jobs, etc
-        will be unlocked for the entire server. Summoner will be available from the start. COP missions, zones, etc will be unlocked for the entire server after the one group gains accesses Sky
+        will be unlocked for the entire server. Summoner will be available from the start. COP missions, zones, etc will be unlocked for the entire server after one group gains accesses to Sky
       </p>
       <p>
         This project is a fork of <a href = "https://www.limitbreakffxi.com/">Limit Break</a> (TOAU) which is a fork of
@@ -44,10 +44,7 @@ export default {
 </script>
 
 <style scoped>
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+
   .home {
     grid-row: 2;
     border: 1px solid white;
@@ -57,25 +54,5 @@ export default {
     padding: 3rem;
     margin-left: 10rem;
   }
-  .meat {
-    border: 1px solid white;
-    padding: 3rem;
-    border-radius: .5rem;
-    border-bottom: none;
-    border-right: none;
-  }
 
-  p {
-    font-size: 18px;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  li {
-    margin: .5rem;
-    list-style-type: square;
-    font-size: 18px;
-  }
 </style>

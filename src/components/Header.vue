@@ -15,7 +15,6 @@ export default {
 
 <style scoped>
   header {
-    margin: 0;
     height: 2.5rem;
     padding-left: 5rem;
     margin-top: 4rem;

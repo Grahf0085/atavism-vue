@@ -1,29 +1,91 @@
 <template>
-  <div class="rules">
+  <div class = "rules">
     <h2>Rules</h2>
-    <div class="meat">
+    <div class = "meat">
       <h2>General</h2>
       <ol>
         <li>It's just a game. Don't cheat</li>
-        <li>No third party programs that provide automation</li>
+        <li>Have Fun</li>
+        <li>Be respectful</li>
+        <li>Play Together - unless you're a BST or noob</li>
         <li>No real money trade</li>
-        <li>No exploiting bugs. Just take note of it and report it in the discord</li>
+        <li>No exploiting bugs. Just report it in the discord</li>
         <li>No monster player killing</li>
-        <li>No tools to assist in claiming</li>
         <li>If you find an out of era item report it in the discord</li>
+        <li>Requests for additional addons should be made in discord addon channel</li>
       </ol>
-      <h2>Ashita/Windower Addons</h2>
+      <h2>Approved <a href = "https://docs.ashitaxi.com/">Ashita Addons/Plugins</a></h2>
       <ol>
-        <li>Ashita Cast</li>
-        <li>Autojoin</li>
         <li>Battlemod</li>
         <li>Cfhblock</li>
+        <li>Chatmon</li>
         <li>Checker</li>
         <li>Clock</li>
         <li>CraftMon</li>
         <li>Deeps</li>
-        <li></li>
-        <li></li>
+        <li>Distance</li>
+        <li>Draw Distance</li>
+        <li>Duration</li>
+        <li>Filterless</li>
+        <li>Filters</li>
+        <li>Find</li>
+        <li>FPS</li>
+        <li>Gearlock</li>
+        <li>Hardware Mouse</li>
+        <li>Hide Console</li>
+        <li>Logs</li>
+        <li>Pet Info</li>
+        <li>Recast</li>
+        <li>Screenshot</li>
+        <li>Status</li>
+        <li>Timestamp</li>
+        <li>TParty</li>
+        <li>Watchexp</li>
+      </ol>
+      <h2>Approved <a href = "https://docs.windower.net">Windower Addons/Plugins</a></h2>
+      <ol>
+        <li>Bar Filler</li>
+        <li>Battle Mod</li>
+        <li>Blist</li>
+        <li>Cancel</li>
+        <li>Clock</li>
+        <li>Console BG</li>
+        <li>Distance</li>
+        <li>Dress Up</li>
+        <li>Enemy Bar</li>
+        <li>Equip Viewer</li>
+        <li>FFXIDB</li>
+        <li>Find All</li>
+        <li>Gear Swap</li>
+        <li>Highlight</li>
+        <li>Info Bar</li>
+        <li>Logger</li>
+        <li>Macro Changer</li>
+        <li>Pet TP</li>
+        <li>Scoreboard</li>
+        <li>Set BGM</li>
+        <li>SS Organizer</li>
+        <li>Time Stamp</li>
+        <li>Timers</li>
+        <li>TParty</li>
+        <li>XIV Bar</li>
+        <li>Zone Timer</li>
+      </ol>
+      <h2>BANNED</h2>
+      <ol>
+        <li>Any modified bootloader</li>
+        <li>Auction House Addons</li>
+        <li>Targeting Addons</li>
+        <li>Position of Speed Addons</li>
+        <li>Multisend / Servo</li>
+        <li>Minimap and other map overlays that interact with the world (Show NPCs, players, etc)</li>
+        <li>Allmaps</li>
+        <li>Scripts ran unattended</li>
+        <li>Shorthand used to claim</li>
+        <li>LightLuggage</li>
+        <li>Fishing/exp/healing bots or any other bots that automate player actions</li>
+        <li>Claim tools or character enhancement tools like flee or warp hacks.</li>
+        <li>WatchDog (or anything that gives you abilities you shouldn't have access to)</li>
       </ol>
     </div>
   </div>
@@ -48,18 +110,8 @@ export default {
     margin-left: 10rem;
   }
 
-  .meat {
-    border: 1px solid white;
-    padding: 3rem;
-    border-radius: .5rem;
-    border-bottom: none;
-    border-right: none;
-  }
-
-  li {
-    margin: .5rem;
-    list-style-type: square;
-    font-size: 18px;
+  ol {
+    column-count: 3;
   }
 
 </style>

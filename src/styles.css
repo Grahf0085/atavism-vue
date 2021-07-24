@@ -1,0 +1,37 @@
+* {
+  color: #214261;
+}
+
+.meat {
+  border: 1px solid white;
+  padding: 3rem;
+  border-radius: .5rem;
+  border-bottom: none;
+  border-right: none;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  margin: .5rem;
+  font-size: 1.1rem;
+  list-style: square;
+  list-style-position: inside;
+  break-inside: avoid-column;
+  page-break-inside: avoid;
+}
+
+p {
+  font-size: 1.1rem;
+}

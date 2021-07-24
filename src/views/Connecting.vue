@@ -1,7 +1,7 @@
 <template>
-  <div class="connecting">
+  <div class = "connecting">
     <h2>Connecting</h2>
-    <div class ="meat">
+    <div class = "meat">
       <h2>Linux (tested on Arch with wine 5.0)</h2>
       <ol>
         <li>Install wine and lutris</li>
@@ -47,27 +47,9 @@ export default {
     margin-left: 10rem;
   }
 
-  .meat {
-    border: 1px solid white;
-    padding: 3rem;
-    border-radius: .5rem;
-    border-bottom: none;
-    border-right: none;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-    h2 {
-    font-size: 1.5rem;
-  }
-
   li {
-    margin: .5rem;
-    list-style-type: square;
-    font-size: 18px;
+    list-style: decimal;
+    list-style-position: inside;
   }
 
 </style>
