@@ -28,15 +28,19 @@
       </div>
     </div>
   <router-view/>
+  <Footer />
 </template>
 
 <script>
+
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 
@@ -60,6 +64,7 @@ body {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: .2fr 4fr;
   gap: 4rem;
+  position: relative;
 }
 
 #nav, #internal, #tools, #links {
