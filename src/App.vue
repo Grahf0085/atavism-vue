@@ -1,7 +1,7 @@
 <template>
     <Header title = "Project Atavism - Party Like It's 2005" />
-    <div id="nav">
-      <div id="internal">
+    <div id = "nav">
+      <div id = "internal">
         <router-link to="/">Home</router-link>
         <router-link to="/connecting">Connecting</router-link>
         <router-link to="/FAQs">FAQs</router-link>
@@ -14,6 +14,10 @@
         <router-link to="/player-search">Player Search</router-link>
         <router-link to="/item-search">Item Search</router-link>
         <a href = "https://www.pyogenes.com/ffxi/timer/v2.html">Time Info.</a>
+        <a href = "http://ffxi-stat-calc.sourceforge.net/cgi-bin/ffxistats.cgi">Stats Calculator</a>
+        <a href = "https://flippantry.com/skillchain/">Skill Chains</a>
+        <a href = "http://campsitarus.blogspot.com/">Campsitarus</a>
+        <a href = "http://ffxi-atlas.mageringnetwork.com/">Vana'diel Atlas</a>
       </div>
       <div id="links">
         <h3>Links</h3>
@@ -52,7 +56,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* color: #2c3e50; */
-  color: #214261;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: .2fr 4fr;
@@ -65,7 +68,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px;
-  height: 23rem;
+  height: 28rem;
   border-left: 1px solid white;
 }
 
@@ -73,11 +76,10 @@ body {
   margin: .1rem;
   text-decoration: none;
   font-weight: bold;
-  color: #2c3e50;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #247551;
 }
 
 #internal {
@@ -92,7 +94,6 @@ body {
 
 h3 {
   margin: .4rem;
-  color: #2c3e50;
 }
 
 @font-face {
