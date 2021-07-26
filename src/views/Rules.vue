@@ -93,8 +93,13 @@
 
 <script>
 
+import backgroundFunction from '../../utils.js'
+
 export default {
-  name: 'Rules'
+  name: 'Rules',
+  mounted () {
+    backgroundFunction()
+  }
 }
 </script>
 
