@@ -44,6 +44,11 @@ const routes = [
     path: '/item-search',
     name: 'Item Search',
     component: () => import('../views/ItemSearch.vue')
+  },
+  {
+    path: '/bcnm-ksnm-enm',
+    name: 'BCNM-KSNM-ENM',
+    component: () => import('../views/BCNM-KSNM-ENM.vue')
   }
 ]
 

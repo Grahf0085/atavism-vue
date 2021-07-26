@@ -6,6 +6,7 @@
         <router-link to="/connecting">Connecting</router-link>
         <router-link to="/FAQs">FAQs</router-link>
         <router-link to="/rules">Rules</router-link>
+        <router-link to="/BCNM-KSNM-ENM">BCNM/ENM/KSNM</router-link>
         <router-link to="/support">Support</router-link>
       </div>
       <div id="tools">
@@ -35,6 +36,18 @@
 
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import backgrounds from '../backgrounds.js'
+
+function changeBg () {
+  const randIndex = Math.floor(Math.random() * backgrounds.length)
+  const bodyThing = document.querySelector('html')
+  const bg = backgrounds[randIndex]
+  bodyThing.style.backgroundImage = `linear-gradient(360deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url(${bg})`
+  bodyThing.style.backgroundRepeat = 'no-repeat'
+  bodyThing.style.backgroundSize = '100%'
+}
+
+changeBg()
 
 export default {
   name: 'App',
@@ -50,9 +63,9 @@ export default {
 
 body {
   margin: 0;
-  height: 100vh;
-  background: -webkit-linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-  background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+  /* height: 100vh; */
+  /* background-image: linear-gradient(360deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url("../public/Al'Taieu-pic.webp");
+  background-repeat: no-repeat; */
 }
 
 #app {
@@ -73,7 +86,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px;
-  height: 28rem;
+  height: 30rem;
   border-left: 1px solid white;
 }
 

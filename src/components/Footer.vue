@@ -27,10 +27,12 @@ export default {
     position: absolute;
     bottom: 0;
     height: 2.0rem;
+    padding-bottom: 1rem;
   }
 
   p {
     font-size: .9rem;
+    margin: 0;
   }
 
 </style>
