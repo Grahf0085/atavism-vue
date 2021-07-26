@@ -17,19 +17,27 @@
       <h2>Who Should Play On This Server?</h2>
         <p>Anyone who thinks FFXI was at it's best during COP.</p>
       <h2>What kind of server do you use?</h2>
+        <p>Local machine running...</p>
         <p>Operating System: Arch Linux.</p>
         <p>Hardware: core i5 1140G7, 16GB LPDDR4X 4266MHz RAM, and a 512GB PCIe SSD.</p>
         <p>Connection: 200mbps</p>
       <h2>Could your toon data be lost?</h2>
         <p>The database is backed up (at least) weekly to an online server and to an external hard drive</p>
+      <h2>How often will the server be down?</h2>
+        <p>Besides the occassional power outage the server will be restarted at least weekly. A one hour warning will be posted before restarts.</p>
     </div>
   </div>
 </template>
 
 <script>
 
+import backgroundFunction from '../../utils.js'
+
 export default {
-  name: 'FAQs'
+  name: 'FAQs',
+  mounted () {
+    backgroundFunction()
+  }
 }
 </script>
 

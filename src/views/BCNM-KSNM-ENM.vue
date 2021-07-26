@@ -48,8 +48,13 @@
 
 <script>
 
+import backgroundFunction from '../../utils.js'
+
 export default {
-  name: 'BCNM-KSNM-ENM'
+  name: 'BCNM-KSNM-ENM',
+  mounted () {
+    backgroundFunction()
+  }
 }
 
 </script>

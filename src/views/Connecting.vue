@@ -30,8 +30,13 @@
 
 <script>
 
+import backgroundFunction from '../../utils.js'
+
 export default {
-  name: 'Connecting'
+  name: 'Connecting',
+  mounted () {
+    backgroundFunction()
+  }
 }
 </script>
 

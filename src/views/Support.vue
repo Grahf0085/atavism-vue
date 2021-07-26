@@ -24,8 +24,13 @@
 
 <script>
 
+import backgroundFunction from '../../utils.js'
+
 export default {
-  name: 'Support'
+  name: 'Support',
+  mounted () {
+    backgroundFunction()
+  }
 }
 </script>
 

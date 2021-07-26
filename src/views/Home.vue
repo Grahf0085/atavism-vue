@@ -38,8 +38,13 @@
 
 <script>
 
+import backgroundFunction from '../../utils.js'
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  mounted () {
+    backgroundFunction()
+  }
 }
 </script>
 
