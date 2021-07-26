@@ -6,5 +6,5 @@ export default function backgroundFunction () {
   const bg = backgrounds[randIndex]
   bodyThing.style.backgroundImage = `linear-gradient(360deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url(${bg})`
   bodyThing.style.backgroundRepeat = 'no-repeat'
-  bodyThing.style.backgroundSize = '100%'
+  bodyThing.style.backgroundSize = 'cover'
 }
