@@ -3,7 +3,7 @@
     <h2>Rules</h2>
     <div class = "meat">
       <h2>General</h2>
-      <ol>
+      <ol class = "general">
         <li>It's just a game. Don't cheat</li>
         <li>Have Fun</li>
         <li>Be respectful</li>
@@ -15,7 +15,7 @@
         <li>Requests for additional addons should be made in discord addon channel</li>
       </ol>
       <h2>Approved <a href = "https://docs.ashitaxi.com/">Ashita Addons/Plugins</a></h2>
-      <ol>
+      <ol class = "ashita">
         <li>Battlemod</li>
         <li>Cfhblock</li>
         <li>Chatmon</li>
@@ -43,7 +43,7 @@
         <li>Watchexp</li>
       </ol>
       <h2>Approved <a href = "https://docs.windower.net">Windower Addons/Plugins</a></h2>
-      <ol>
+      <ol class = "windower">
         <li>Bar Filler</li>
         <li>Battle Mod</li>
         <li>Blist</li>
@@ -72,7 +72,7 @@
         <li>Zone Timer</li>
       </ol>
       <h2>BANNED</h2>
-      <ol>
+      <ol class = "banned">
         <li>Any modified bootloader</li>
         <li>Auction House Addons</li>
         <li>Targeting Addons</li>
@@ -116,7 +116,34 @@ export default {
   }
 
   ol {
-    column-count: 3;
+    column-count: 5;
+    margin: 0;
   }
+  li {
+    font-size: 0.95rem;
+  }
+
+  .meat {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 1fr); */
+
+  }
+
+  /* .general {
+    grid-row: 1
+  }
+
+  .ashita {
+    grid-row: 3
+  }
+
+  .windows {
+    grid-row: 5
+  }
+
+  .banned {
+    grid-row: 7
+  } */
 
 </style>
