@@ -67,6 +67,9 @@ body {
   grid-template-rows: .2fr 4fr;
   gap: 4rem;
   position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
 }
 
 #nav, #internal, #tools, #links {
